@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;
+}
+section{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#register div.grid > div{
+	float: left;
+	width: 100%;
+	padding: 0 1em;
+	margin-bottom: 1em;
+}
+#register div.grid > div.half{
+	width: 50%;
+}
+#register div.grid label{
+	display: block;
+	margin-bottom: 1em;
+}
+#register div.grid input{
+	width: 100%;
+}
+#headline{
+	text-align: center;
+}
+input [type=submit]{
+	width: 50%;
+	text-align: center;
+}
+

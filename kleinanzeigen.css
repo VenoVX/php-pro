@@ -1,0 +1,21 @@
+header{
+    margin-bottom: 3.5em;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+main{
+    padding: 0 0.5em;
+}
+form#search div{
+    padding: 0 0.5em;
+}
+/*form#search div input[type="search"] {
+    display: inline !important;
+    width: 100%;
+}*/
+.formPadding{
+    padding: 0 0.25em;
+}
+
