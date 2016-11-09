@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="w3-schools.css">
+    <link rel="stylesheet" type="text/css" href="kleinanzeigen.css">
+</head>
+<body>
+    <header class="">
+        <h1 class="w3-indigo">Login</h1>
+        <form action="kleinanzeigen.php" method="post">
+            <div class="w3-row">
+                <button type="submit" name="send" class="w3-btn-block w3-indigo w3-quarter backbutton">Zurück</button>
+            </div>
+        </form>
+    </header>
+    <main class="w3-margin">
+        <form action="login.php" method="POST">
+            <div class="w3-row divPadding">
+                <label for="email" class="w3-margin-bottom">
+                    Email-Adresse
+                </label>
+                <input type="text" name="email" id='email' placeholder="max.mustermann@muster.de" class="w3-input">
+            </div>
+            <div class="w3-row divPadding">
+                <label for="password" class="w3-margin-bottom">
+                    Passwort
+                </label>
+                <input type="password" name="password" id='password' placeholder="********" class="w3-input">
+            </div>
+            <div class="w3-row divPadding">
+                <button type="submit" name="send" class="w3-btn-block w3-indigo">Login</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
