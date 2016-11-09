@@ -11,11 +11,45 @@ main{
 form#search div{
     padding: 0 0.5em;
 }
-/*form#search div input[type="search"] {
-    display: inline !important;
-    width: 100%;
-}*/
 .formPadding{
     padding: 0 0.25em;
 }
+.divPadding {
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+select {
+    border-bottom: 1px solid #3f51b5 !important;
+}
+.upload{
+padding:8px;
+    display:block;
+    border:none;
+    width:100%;
+}
+.backbutton{
+    float:right;
+}
+.dropbtn {
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 
